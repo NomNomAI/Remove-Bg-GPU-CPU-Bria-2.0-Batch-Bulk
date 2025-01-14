@@ -4,3 +4,4 @@ torchaudio>=2.0
 transformers
 Pillow
 gradio
+

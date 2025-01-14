@@ -74,7 +74,8 @@ def batch_process(images, device_choice):
     return results
 
 with gr.Blocks() as demo:
-    gr.Markdown("## Background Removal Tool")
+    gr.Markdown("## Remove Bg GPU/CPU FAST Bria 2.0 Batch/Bulk")
+    gr.Markdown("This space uses [BRIA Background Removal v2.0](https://huggingface.co/briaai/RMBG-2.0).")
 
     with gr.Row():
         # Add a device choice radio
