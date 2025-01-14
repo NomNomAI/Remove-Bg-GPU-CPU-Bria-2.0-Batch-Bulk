@@ -16,23 +16,24 @@ Gradio GUI
 
 Gradio allows choosing of files. CLI will use the input folder
 
+Clone the repository and navigate to its directory:
+git clone https://github.com/NomNomAI/Remove-Bg-GPU-CPU-Bria-2.0-Batch-Bulk.git 
+
+cd Remove-Bg-GPU-CPU-Bria-2.0-Batch-Bulk
+
 Create and activate a Python virtual environment:
-
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate  
 
-Install packages:
-
+Install required Python packages:
 pip install --upgrade pip
 pip install -r requirements.txt
 
-GPU support:
-install PyTorch/Torchvision with CUDA support compatible with your hardware, e.g. CUDA 11.8:
-
+(Optional for GPU) Install PyTorch with CUDA support:
 pip install --index-url https://download.pytorch.org/whl/cu118 --upgrade torch torchvision torchaudio
 
-Run the script:
-
+Run the desired version of the script:
+Gradio GUI:
 python gradiover.py
 
 
