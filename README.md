@@ -20,8 +20,8 @@ Install packages:
 pip install --upgrade pip
 pip install -r requirements.txt
 
-
-If you want GPU support for deformable convolutions, install PyTorch/Torchvision with CUDA support compatible with your hardware, e.g. CUDA 11.8:
+GPU support:
+install PyTorch/Torchvision with CUDA support compatible with your hardware, e.g. CUDA 11.8:
 
 pip install --index-url https://download.pytorch.org/whl/cu118 --upgrade torch torchvision torchaudio
 
