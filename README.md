@@ -3,6 +3,9 @@ Short intro: This tool removes image backgrounds in bulk using BRIA’s RMBG v2.
 License: BRIA RMBG-2.0 is source-available for non-commercial use. Commercial use requires a license from BRIA.
 Credits: Model by BRIA AI (https://briaglobal.com) and references to the BiRefNet paper.
 
+
+Simple lightweight fast Background removal. No fancy bells and whistles.
+
 Three versions included. 
 CPU CLI
 GPU CLI
