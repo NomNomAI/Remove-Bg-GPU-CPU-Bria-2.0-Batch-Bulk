@@ -69,7 +69,6 @@ Developed by BRIA AI, RMBG v2.0 is available as a source-available model for non
 Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information, tutorials, tools, and to connect with other users!
 
 
-![examples](t4.png)
 
 ## Model Details
 #####
