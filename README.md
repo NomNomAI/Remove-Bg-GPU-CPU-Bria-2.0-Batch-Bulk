@@ -36,7 +36,7 @@ Run the script:
 python gradiover.py
 
 
-Original BRIA-RMBG-2.0 README
+Original BRIA-RMBG-2.0 README CONDENSED 
 ---
 license: other
 license_name: bria-rmbg-2.0
@@ -93,39 +93,6 @@ Bria-RMBG model was trained with over 15,000 high-quality, high-resolution, manu
 Our benchmark included balanced gender, balanced ethnicity, and people with different types of disabilities.
 For clarity, we provide our data distribution according to different categories, demonstrating our model’s versatility.
 
-### Distribution of images:
-
-| Category | Distribution |
-| -----------------------------------| -----------------------------------:|
-| Objects only | 45.11% |
-| People with objects/animals | 25.24% |
-| People only | 17.35% |
-| people/objects/animals with text | 8.52% |
-| Text only | 2.52% |
-| Animals only | 1.89% |
-
-| Category | Distribution |
-| -----------------------------------| -----------------------------------------:|
-| Photorealistic | 87.70% |
-| Non-Photorealistic | 12.30% |
-
-
-| Category | Distribution |
-| -----------------------------------| -----------------------------------:|
-| Non Solid Background | 52.05% |
-| Solid Background | 47.95% 
-
-
-| Category | Distribution |
-| -----------------------------------| -----------------------------------:|
-| Single main foreground object | 51.42% |
-| Multiple objects in the foreground | 48.58% |
-
-
-## Qualitative Evaluation
-Open source models comparison
-![diagram](diagram1.png)
-![examples](collage5.png)
 
 ### Architecture
 RMBG-2.0 is developed on the [BiRefNet](https://github.com/ZhengPeng7/BiRefNet) architecture enhanced with our proprietary dataset and training scheme. This training data significantly improves the model’s accuracy and effectiveness for background-removal task.<br>
