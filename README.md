@@ -1,10 +1,14 @@
-# Remove Bg GPU/CPU FAST Bria 2.0 Batch/Bulk
- Remove Bg GPU/CPU FAST Bria 2.0 Batch/Bulk
-
+Remove Bg GPU/CPU FAST Bria 2.0 Batch/Bulk
 Short intro: This tool removes image backgrounds in bulk using BRIA’s RMBG v2.0.
 License: BRIA RMBG-2.0 is source-available for non-commercial use. Commercial use requires a license from BRIA.
 Credits: Model by BRIA AI (https://briaglobal.com) and references to the BiRefNet paper.
 
+Three versions included. 
+CPU CLI
+GPU CLI
+Gradio GUI
+
+Gradio allows choosing of files. CLI will use the input folder
 
 Create and activate a Python virtual environment:
 
@@ -23,7 +27,7 @@ pip install --index-url https://download.pytorch.org/whl/cu118 --upgrade torch t
 
 Run the script:
 
-python remove_bgs_bulk.py
+python gradiover.py
 
 
 
